@@ -1,0 +1,7 @@
+# macOS
+.DS_Store
+
+# logs / editor cruft
+*.log
+.vscode/
+.idea/
