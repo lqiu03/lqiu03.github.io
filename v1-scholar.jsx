@@ -21,7 +21,7 @@ function V1Scholar() {
         {/* Intro */}
         <section style={styles.intro}>
           <div style={styles.introHead}>
-            <Headshot size={460} round={false} label="headshot" />
+            <Headshot size={240} round={false} label="headshot" />
             <div style={styles.introMeta}>
               <h1 style={styles.name}>{PROFILE.name}</h1>
               <div style={styles.employer}>{PROFILE.employer}</div>
