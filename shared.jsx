@@ -25,6 +25,17 @@ const PROFILE = {
 
 const WRITING = [
   {
+    title: 'Geometric Representations of Death in Neural Networks',
+    date:  'June 2026',
+    kind:  'Interpretability, Llama-3.1-8B',
+    desc:  'To a transformer, what is the internal representation of "death"? A conceptual term rather to humans.',
+    href:  'https://broad-booth-831.notion.site/Geometric-Representations-of-Death-in-Neural-Networks-383a3e519d1680d3a207ebdcae0ac90b?source=copy_link',
+    figure: {
+      src:     'geometric-death-manifold.png',
+      caption: 'Reproducing Geiger et al (Goodfire) on manifold geometry',
+    },
+  },
+  {
     title: 'Death Motif in Reasoning Models',
     date:  'Dec 2025',
     kind:  'Interpretability, Alignment',

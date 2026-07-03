@@ -101,6 +101,12 @@ function V1Scholar() {
                   <h3 style={styles.writingTitle}>{w.title}<span style={styles.writingArrow}>↗</span></h3>
                   <p style={styles.writingDesc}>{w.desc}</p>
                 </a>
+                {w.figure && (
+                  <figure style={styles.writingFigure}>
+                    <img src={w.figure.src} alt={w.figure.caption} style={styles.writingFigureImg} loading="lazy" />
+                    <figcaption style={styles.writingFigureCaption}>{w.figure.caption}</figcaption>
+                  </figure>
+                )}
               </li>
             ))}
           </ol>
@@ -315,6 +321,16 @@ const scholarStyles = {
     margin: 0, fontFamily: "'DM Sans', sans-serif",
     fontSize: 15, lineHeight: 1.55, color: INK_2, fontWeight: 400,
     textWrap: 'pretty',
+  },
+  writingFigure: { margin: '22px 0 0' },
+  writingFigureImg: {
+    display: 'block', width: '100%', height: 'auto',
+    border: `1px solid ${RULE}`, background: PAPER,
+  },
+  writingFigureCaption: {
+    marginTop: 10, fontFamily: "'JetBrains Mono', monospace",
+    fontSize: 11, lineHeight: 1.5, color: INK_3,
+    letterSpacing: '0.04em', textAlign: 'center',
   },
 
   pubList: { listStyle: 'none', padding: 0, margin: 0 },
