@@ -36,18 +36,18 @@ const WRITING = [
     },
   },
   {
-    title: 'Death Motif in Reasoning Models',
-    date:  'Dec 2025',
-    kind:  'Interpretability, Alignment',
-    desc:  'Have you wondered how reasoning models think of "death"? Are they self-aware?',
-    href:  'https://broad-booth-831.notion.site/Death-Motif-in-Reasoning-Models-2d2a3e519d1680b1bdefd77e7ce81d15?source=copy_link',
-  },
-  {
     title: 'Self-Improving Agent for DMR Pipeline',
     date:  'March 2025',
     kind:  'Reinforcement Learning',
     desc:  "Inspired by Andrej Karpathy's AutoResearch.",
     href:  'https://broad-booth-831.notion.site/Self-Improving-Agent-for-DMR-Pipeline-32da3e519d168090b801fb3d16e5e78a?source=copy_link',
+  },
+  {
+    title: 'Death Motif in Reasoning Models',
+    date:  'Dec 2025',
+    kind:  'Interpretability, Alignment',
+    desc:  'Have you wondered how reasoning models think of "death"? Are they self-aware?',
+    href:  'https://broad-booth-831.notion.site/Death-Motif-in-Reasoning-Models-2d2a3e519d1680b1bdefd77e7ce81d15?source=copy_link',
   },
 ];
 
